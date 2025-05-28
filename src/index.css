@@ -1,4 +1,5 @@
 /* @import "tailwindcss"; */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -43,7 +44,7 @@
     --sidebar-border: 0 0% 100%;
     --sidebar-ring: 0 80% 40%;
   }
- 
+  
   .dark {
   --background: 0 0% 10%;
   --foreground: 0 0% 98%;
@@ -55,7 +56,8 @@
   --sidebar-foreground: 0 0% 100%;
   --sidebar-primary: 0 85% 40%;
   --sidebar-primary-foreground: 0 0% 100%;
-}
+  }
+
 
 }
 @layer base {
